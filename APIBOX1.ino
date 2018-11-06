@@ -38,6 +38,7 @@ void loop() {
         String display_y = splitter->getItemAtIndex(2);
         String display_size = splitter->getItemAtIndex(3);
         String display_scroll = splitter->getItemAtIndex(4);
+        delete StringSplitter;
 
         if(display_scroll == "true"){
           display.startscrollleft(0x00, 0x0F);          
